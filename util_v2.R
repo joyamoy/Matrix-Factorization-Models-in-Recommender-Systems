@@ -3,6 +3,7 @@
 require(readr)
 require(dplyr)
 
+
 # computes loss function (with regularization) and RMSE on both training and 
 # test set
 ComputeLossRMSE <- function(dat, U, V, bU, bV, mu, lambda, model.type) {
