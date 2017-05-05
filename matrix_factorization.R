@@ -1,4 +1,5 @@
 # this is the main file to call functions to train models and run cross-validations
+# please see functions in util_v2.R
 # set working directory
 require(readr)
 require(dplyr)
